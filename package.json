@@ -1,0 +1,19 @@
+{
+  "name": "smartapp-example-no-devices-nodejs-lambda",
+  "version": "1.0.0",
+  "description": "Give Lambda SmartApps a try without any physical devices.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "SmartThings",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@smartthings/smartapp": "^2.4.4"
+  },
+  "devDependencies": {
+    "serverless": "^2.18.0"
+  },
+  "engines": {
+    "node": "^12"
+  }
+}
