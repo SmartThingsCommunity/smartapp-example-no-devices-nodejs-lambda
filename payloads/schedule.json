@@ -1,0 +1,32 @@
+{
+    "lifecycle": "EVENT",
+    "executionId": "00000000-0000-0000-0000-000000000000",
+    "appId": "00000000-0000-0000-0000-000000000000",
+    "locale": "en-US",
+    "version": "0.1.0",
+    "eventData": {
+        "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZWNyZXQiOiJkYXRhIn0.XlyxsKlzrxTc0bXMk_Ege5g4yaFmYtsY1xuuDPcITUo",
+        "installedApp": {
+            "installedAppId": "00000000-0000-0000-0000-000000000000",
+            "locationId": "00000000-0000-0000-0000-000000000000",
+            "config": {},
+            "permissions": [
+                "r:locations:*"
+            ]
+        },
+        "events": [
+            {
+                "eventTime": "1970-01-01T00:00:00Z",
+                "eventType": "TIMER_EVENT",
+                "timerEvent": {
+                    "eventId": "00000000-0000-0000-0000-000000000000",
+                    "name": "helloSchedule",
+                    "type": "CRON",
+                    "time": "1970-01-01T00:00:00Z",
+                    "expression": "0 0/1 * * * ? *"
+                }
+            }
+        ]
+    },
+    "settings": {}
+}

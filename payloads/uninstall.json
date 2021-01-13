@@ -1,0 +1,27 @@
+{
+    "lifecycle": "UNINSTALL",
+    "executionId": "00000000-0000-0000-0000-000000000000",
+    "appId": "00000000-0000-0000-0000-000000000000",
+    "locale": "en-US",
+    "version": "0.1.0",
+    "uninstallData": {
+        "installedApp": {
+            "installedAppId": "00000000-0000-0000-0000-000000000000",
+            "locationId": "00000000-0000-0000-0000-000000000000",
+            "config": {
+                "toggle": [
+                    {
+                        "valueType": "STRING",
+                        "stringConfig": {
+                            "value": "true"
+                        }
+                    }
+                ]
+            },
+            "permissions": [
+                "r:locations:*"
+            ]
+        }
+    },
+    "settings": {}
+}
