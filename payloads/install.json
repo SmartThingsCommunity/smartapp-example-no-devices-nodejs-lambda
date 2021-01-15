@@ -1,0 +1,29 @@
+{
+    "lifecycle": "INSTALL",
+    "executionId": "00000000-0000-0000-0000-000000000000",
+    "appId": "00000000-0000-0000-0000-000000000000",
+    "locale": "en",
+    "version": "0.1.0",
+    "client": {
+        "os": "android",
+        "version": "1.7.57.23",
+        "language": "en-US",
+        "displayMode": "LIGHT",
+        "timeZoneOffset": "",
+        "supportedTemplates": [],
+        "samsungAccountId": ""
+    },
+    "installData": {
+        "authToken": "00000000-0000-0000-0000-000000000000",
+        "refreshToken": "00000000-0000-0000-0000-000000000000",
+        "installedApp": {
+            "installedAppId": "00000000-0000-0000-0000-000000000000",
+            "locationId": "00000000-0000-0000-0000-000000000000",
+            "config": {},
+            "permissions": [
+                "r:locations:*"
+            ]
+        }
+    },
+    "settings": {}
+}
