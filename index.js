@@ -1,5 +1,5 @@
-const smartApp = require('./smartapp');
+const SmartApp = require('./smartapp')
 
 module.exports.handle = (event, context, callback) => {
-    smartApp.handleLambdaCallback(event, context, callback);
-};
+    SmartApp.handleLambdaCallback(event, context, callback)
+}
