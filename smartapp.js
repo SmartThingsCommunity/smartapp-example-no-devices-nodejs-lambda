@@ -1,4 +1,4 @@
-const SmartApp = require('@smartthings/smartapp');
+const SmartApp = require('@smartthings/smartapp')
 
 module.exports = new SmartApp()
     .configureI18n()
@@ -7,21 +7,21 @@ module.exports = new SmartApp()
     .permissions(['r:locations:*'])
     .page('mainPage', (context, page, configData) => {})
     .installed(async context => {
-        console.log("Hello installed!");
+        console.log("Hello installed!")
 
         if (process.env.IS_LOCAL) {
-            console.log("Running locally, skipping actual schedule creation");
+            console.log("Running locally, skipping actual schedule creation")
         } else {
             // schedule to say hello every minute
-            await context.api.schedules.schedule('helloSchedule', `0/1 * * * ? *`, 'UTC');
+            await context.api.schedules.schedule('helloSchedule', `0/1 * * * ? *`, 'UTC')
         }
     })
     .updated(context => {
-        console.log("Hello updated!");
+        console.log("Hello updated!")
     })
     .uninstalled(context => {
-        console.log("Hello uninstalled!");
+        console.log("Hello uninstalled!")
     })
     .scheduledEventHandler('helloSchedule', context => {
-        console.log("Hello schedule!");
-    });
+        console.log("Hello schedule!")
+    })
