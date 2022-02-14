@@ -1,6 +1,6 @@
 service: no-devices-nodejs-lambda
 
-frameworkVersion: "2"
+frameworkVersion: "3"
 
 package:
   include:
