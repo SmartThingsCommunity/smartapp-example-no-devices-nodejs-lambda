@@ -8,15 +8,17 @@ Test locally using [serverless invoke local](https://www.serverless.com/framewor
 
 ### Examples
 
+First, `npm install` to pull in serverless.
+
 #### Installed event handler
 
-`serverless invoke local -f smartapp -p payloads/install.json`
+`npx serverless invoke local -f smartapp -p payloads/install.json`
 
 #### Scheduled event handler
 
-`serverless invoke local -f smartapp -p payloads/schedule.json`
+`npx serverless invoke local -f smartapp -p payloads/schedule.json`
 
-See [payloads](payloads) for more event data that conforms to the SmartThings [SmartApp API](https://smartthings.developer.samsung.com/docs/api-ref/smartapps-v1.html).
+See [payloads](payloads) for more event data that conforms to the SmartThings SmartApp API.
 
 ## Run in AWS
 
@@ -32,7 +34,7 @@ See [payloads](payloads) for more event data that conforms to the SmartThings [S
 
 1. Follow the instructions to [setup AWS credentials](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/) for serverless.
 
-1. Deploy the Lambda function: `serverless deploy`.
+1. Deploy the Lambda function: `npx serverless deploy`.
 
 1. Follow the steps to grant SmartThings [permission to execute your Lambda function](https://smartthings.developer.samsung.com/docs/smartapps/aws-lambda.html). **This is required for successful registration.**
 

@@ -1,4 +1,4 @@
-const SmartApp = require('@smartthings/smartapp')
+const { SmartApp } = require('@smartthings/smartapp')
 
 module.exports = new SmartApp()
     .configureI18n()
